@@ -7,4 +7,6 @@ we can define:
 now if we apply a linear rotation matrix on d1, we can rotate p1 as well
 and we can generalize our other position vector P2 as well, and so on.
 
-![alt text](image.png)
+$$
+\pi_i = \pi_{i-1} + d_i + \text{rotate} \left( d_i, \pi_{i-1}, \sum_{k=0}^{i} \alpha_k \right)
+$$
